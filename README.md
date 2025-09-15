@@ -1,2 +1,17 @@
-# alx-project-0x00-setup
-alx-project-0x00-setup
+# tsconfig.json
+
+{
+  "compilerOptions": {
+    "target": "ES6",                          
+    "module": "commonjs",                     
+    "strict": true,                           
+    "esModuleInterop": true,                  
+    "skipLibCheck": true,                     
+    "forceConsistentCasingInFileNames": true, 
+    "outDir": "./dist",                       
+    "rootDir": "./src"                        
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
+
