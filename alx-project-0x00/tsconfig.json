@@ -12,3 +12,7 @@
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }
+
+["paths", "@/*"]
+import Button from "../../../components/ui/Button";
+import Button from "@/components/ui/Button";
