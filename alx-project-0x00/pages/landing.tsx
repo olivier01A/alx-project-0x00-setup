@@ -29,3 +29,7 @@ const Landing: React.FC = () => {
 };
 
 export default Landing;
+
+
+import Card from "@/components/Card";
+import { Card } from "@/components/Card";
