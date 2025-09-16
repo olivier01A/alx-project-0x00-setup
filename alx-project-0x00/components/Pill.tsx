@@ -33,3 +33,25 @@ const Pill: React.FC<PillProps> = ({ label, variant = "default" }) => {
 };
 
 export default Pill;
+
+["import { PillProps } from", "@/interfaces", "{title}"]
+// components/Pill.tsx
+import React from "react";
+import { PillProps } from "@/interfaces";
+
+const Pill: React.FC<PillProps> = ({ title }) => {
+  return (
+    <span className="px-3 py-1 text-sm font-medium bg-gray-200 rounded-full">
+      {title}
+    </span>
+  );
+};
+
+export default Pill;
+
+// interfaces/index.ts
+export interface PillProps {
+  title: string;
+}
+
+
