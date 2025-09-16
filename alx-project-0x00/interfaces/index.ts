@@ -15,3 +15,10 @@ export default Home;
 export interface PillProps {
   title: string
 }
+
+["styles: string"]
+// interfaces/index.ts
+export interface ButtonProps {
+  title: string;
+  styles: string;
+}
